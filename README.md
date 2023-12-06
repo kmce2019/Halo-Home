@@ -1,8 +1,9 @@
 # Halo-Home
-Adding Halo Home/ Eaton lights to Homebridge
+## Adding Halo Home/ Eaton lights to Homebridge
+Source: https://documenter.getpostman.com/view/6065583/RzfmEmUY#intro
 
 
-You will need some information for the cURL calls:
+## You will need some information for the cURL calls:
   1) Location
   2) PID/Device ID/Group ID
   3) Auth Token
