@@ -1,6 +1,6 @@
 # Halo-Home
 ## Adding Halo Home/ Eaton lights to Homebridge
-Sourcws: https://documenter.getpostman.com/view/6065583/RzfmEmUY#intro
+Sources: https://documenter.getpostman.com/view/6065583/RzfmEmUY#intro & 
         https://community.home-assistant.io/t/eaton-halo-home-integration/286724
 
 
