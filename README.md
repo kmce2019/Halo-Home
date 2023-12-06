@@ -8,14 +8,15 @@ Source: https://documenter.getpostman.com/view/6065583/RzfmEmUY#intro
   2. PID/Device ID/Group ID
   3. Auth Token
 
-To get them:
+## To get them:
   1.
   2. DEVICES- curl -X GET http://api.avi-on.com/user/devices -H "Content-Type: application/json" -H "Authorization: Token <Token>"
      GROUPS- curl -X GET http://api.avi-on.com/user/groups -H "Content-Type: application/json" -H "Authorization: Token <Token>"
   3. curl -X POST http://api.avi-on.com/user/devices -H "Content-Type: application/json" -d "{\"email\":\"user@domain.com\",\"password\":\"password\"}"
 
-In Homebridge Plugins, install homebridge-cmdswitch2
-To control a group of lights, enter your specific version of this config:
+## In Homebridge Plugins, install homebridge-cmdswitch2
+
+## To control a group of lights, enter your specific version of this config:
 
 '''
 {
