@@ -17,7 +17,7 @@ To get them:
 In Homebridge Plugins, install homebridge-cmdswitch2
 To control a group of lights, enter your specific version of this config:
 
-///
+'''
 {
     "platform": "cmdSwitch2",
     "name": "LR Lights",
@@ -29,7 +29,7 @@ To control a group of lights, enter your specific version of this config:
         }
     }
 }
-///
+'''
 
 Save and restart Homebridge
 You should now sww a switch labeled LR Lights that will toggle on and off!
