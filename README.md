@@ -4,19 +4,19 @@ Source: https://documenter.getpostman.com/view/6065583/RzfmEmUY#intro
 
 
 ## You will need some information for the cURL calls:
-###  1. AUTH TOKEN
-###  2. PID/Device ID/Group ID
+  1. AUTH TOKEN
+  2. PID/Device ID/Group ID
 
 ## To get them:
-###  1. AUTH TOKEN
+  1. AUTH TOKEN
 ```
 curl -X POST http://api.avi-on.com/user/devices -H "Content-Type: application/json" -d "{\"email\":\"user@domain.com\",\"password\":\"password\"}"
 ```
-###  2a. DEVICES 
+  2a. DEVICES 
 ```
 curl -X GET http://api.avi-on.com/user/devices -H "Content-Type: application/json" -H "Authorization: Token <Token>"
 ```
-###  2b. GROUPS
+  2b. GROUPS
 ```
 curl -X GET http://api.avi-on.com/user/groups -H "Content-Type: application/json" -H "Authorization: Token <Token>"
 ```
