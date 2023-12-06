@@ -10,15 +10,24 @@ Source: https://documenter.getpostman.com/view/6065583/RzfmEmUY#intro
 
 ## To get them:
 ###  1.  LOCATION
-###  2a. DEVICES- curl -X GET http://api.avi-on.com/user/devices -H "Content-Type: application/json" -H "Authorization: Token <Token>"
-###  2b. GROUPS- curl -X GET http://api.avi-on.com/user/groups -H "Content-Type: application/json" -H "Authorization: Token <Token>"
-###  3. AUTH TOKEN- curl -X POST http://api.avi-on.com/user/devices -H "Content-Type: application/json" -d "{\"email\":\"user@domain.com\",\"password\":\"password\"}"
+###  2a. DEVICES 
+```
+curl -X GET http://api.avi-on.com/user/devices -H "Content-Type: application/json" -H "Authorization: Token <Token>"
+```
+###  2b. GROUPS
+```
+curl -X GET http://api.avi-on.com/user/groups -H "Content-Type: application/json" -H "Authorization: Token <Token>"
+```
+###  3. AUTH TOKEN
+```
+curl -X POST http://api.avi-on.com/user/devices -H "Content-Type: application/json" -d "{\"email\":\"user@domain.com\",\"password\":\"password\"}"
+```
 
 ## In Homebridge Plugins, install homebridge-cmdswitch2
 
 ## To control a group of lights, enter your specific version of this config:
 
-'''
+```
 {
     "platform": "cmdSwitch2",
     "name": "LR Lights",
@@ -30,7 +39,7 @@ Source: https://documenter.getpostman.com/view/6065583/RzfmEmUY#intro
         }
     }
 }
-'''
+```
 
 Save and restart Homebridge
 You should now sww a switch labeled LR Lights that will toggle on and off!
